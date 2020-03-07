@@ -1,5 +1,5 @@
 ## List Missing Featured Images - Wordpress Plugin
-This plugin will simply list all the missing featured images for the posts
+This plugin will simply list all the posts with missing featured image.
 
 After Installing the plugin you will see the menu name "List Post Missing Images" simply click on that.
 
