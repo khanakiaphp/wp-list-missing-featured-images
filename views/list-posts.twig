@@ -1,0 +1,23 @@
+<div>
+<h2 style="margin-bottom: 20px;">List Missing Featured Images</h2>
+<table class="wp-list-table widefat fixed striped pages">
+	<thead>
+	<tr>
+		<td>Edit</td>
+		<td>Post ID</td>
+		<td>Post Title</td>
+		<td>Categories</td>
+	</tr>
+	</thead>
+	<tbody>
+		{% for post in posts %}
+		<tr>
+			<td><a target="_blank" href="{{post.edit_post_link|raw}}">Edit Post</a></td>
+			<td>{{post.ID}}</td>
+			<td>{{post.post_title}}</td>
+			<td>{{post.categories|raw}}</td>
+		</tr>
+  	{% endfor %}
+	</tbody>
+</table>
+</div>
